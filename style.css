@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/background2.jpg');
+    background-color: #000000;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(240, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#nav li {
+    font-size: 35px;
+    margin: 15px;
+}
+
+#nav ul li a,
+#nav ul li i {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#nav ul li a:hover,
+#nav ul li a i:hover {
+    color: #f8e945;
+}
+
+hr {
+    width: 80%;
+    border: 3px solid rgb(255, 14, 14);
+    margin-top: 30px;
+}
+
+#slideshow img {
+    width: 70%;
+    height: 500px;
+    margin: 30px 200px;
+
+}
+
+#movies {
+    background-color: red;
+    margin-top: 45px;
+}
+
+
+#movies ul li img:hover {
+    opacity: 0.8
+}
+
+#footer {
+    display: flex;
+    background-color: rgb(54, 2, 2);
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#footer-info h1 {
+    font-size: 50px;
+    color: #f6ff00;
+}
+
+#footer-icons i {
+    font-size: 40px;
+    margin: 0px 5px;
+    color: #f6ff00;
+}
+
+#footer-map {
+    margin: 10px 0;
+}
+
+#movies-banner ul {
+    display: flex;
+}
+
+#movies-banner ul li {
+    list-style: none;
+}
+
+#movies-banner ul li img {
+    width: 300px;
+    height: 450px;
+    margin: 20px 73px;
+    opacity: 1;
+
+
+}
+
+#right {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+#left {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#left li {
+    padding: 0 5px;
+    font-size: 25px;
+
+}
+
+#left li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#right button,
+#sign-up-form button {
+    margin: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: bisque;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#sign-up-area {
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#sign-up-form input {
+    width: 90%;
+    margin: 5px 0;
+}
+
+#sign-up-form input {
+    width: 90%;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 3px transparent;
+    border-image: linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3bbce3) 1;
+}
+#movies-title {
+    text-align: center;
+    font-size: 40px;
+    color: #f6ff00;
+    padding-top: 30px;
+}
